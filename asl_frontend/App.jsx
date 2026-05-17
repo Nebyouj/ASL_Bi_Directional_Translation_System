@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 // ─── Constants ───────────────────────────────────────────────────────────────
-const WS_URL = "ws://localhost:8000/ws";
-const API_URL = "http://localhost:8000";
+const WS_URL = "wss://asl-bi-directional-translation-system-1.onrender.com/ws";
+const API_URL = "https://asl-bi-directional-translation-system-1.onrender.com";
 const FRAME_INTERVAL = 80;
 
 const HAND_CONNECTIONS = [
