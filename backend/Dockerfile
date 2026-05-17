@@ -7,6 +7,9 @@ RUN apt-get update && apt-get install -y \
     libgles2 \
     libglib2.0-0 \
     libxcb1 \
+    libegl1 \
+    libegl-mesa0 \
+    libgbm1 \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
