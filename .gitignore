@@ -1,0 +1,19 @@
+node_modules/
+venv/
+**pycache**/
+*.pyc
+.env
+
+# Python
+
+backend/**pycache**/
+
+# React
+
+asl_frontend/node_modules/
+asl_frontend/dist/
+
+# OS
+
+.DS_Store
+Thumbs.db
